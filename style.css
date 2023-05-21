@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6c00ff !important;
+}
+
+.coin {
+  border-radius: 12px !important;
+  background-color: #fff1dc !important;
+  width: 300px !important;
+}
+
+.coinLogo img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.coinName p {
+  color: black !important;
+  font-size: 18px !important;
+  opacity: 0.9;
+}
+
+.coinName span {
+  margin-top: 8px !important;
+  font-size: 10px !important;
+  opacity: 0.5;
+}
+
+.coinPrice .price {
+  font-size: 16px !important;
+  color: black !important;
+  opacity: 0.9;
+}
+
+.coinPrice .change {
+  color: black !important;
+  font-size: 11px !important;
+  font-weight: bold !important;
+  opacity: 0.6;
+  margin-left: auto !important ;
+}
